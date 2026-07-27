@@ -22,6 +22,7 @@ public:
                  prefix.pop_back();
             }
         }
+        return prefix;
     }
 };
 int main() {

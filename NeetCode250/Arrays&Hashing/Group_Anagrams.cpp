@@ -42,7 +42,7 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, vector<string>> mp;
+        map<string, vector<string>> mp;
         for (string s : strs) {
             vector<int> count(26, 0);
             for (char c : s) {
